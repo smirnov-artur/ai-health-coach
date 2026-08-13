@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>AI Health Coach</title>
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+    <script>(function(){
+  // Демо может лежать в любой подпапке домена. Базовый путь берём из адреса
+  // самой страницы: '/user/demos/health-app/' -> '/user/demos/health-app'.
+  var p = new URL('.', document.baseURI).pathname.replace(/\/+$/, '');
+  globalThis.__DEMO_BASE__ = p;
+  // Иконку вкладки вешаем абсолютным путём: относительный href браузер
+  // перезапрашивает при смене адреса (роутер меняет URL) и ловит 404.
+  var l = document.createElement('link');
+  l.rel = 'icon';
+  l.href = p + '/favicon.ico';
+  document.head.appendChild(l);
+})();</script>
+</head>
+
+  <body style="background-color:#0e1321">
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  <script src="./_expo/static/js/web/entry-467fb2d2f05704d7d9b6dde2578edea5.js" defer></script>
+</body>
+</html>
