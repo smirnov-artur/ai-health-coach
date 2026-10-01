@@ -6,4 +6,4 @@
 статистика и прогресс. Веб-сборка Expo, все данные локальные и тестовые,
 серверная часть не используется.
 
-Разбор проекта: https://smirnov-artur.github.io/portfolio/
+Разбор проекта: https://smirnov-artur.github.io/works/
